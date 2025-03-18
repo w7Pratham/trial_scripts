@@ -7,8 +7,8 @@ current_user=$(whoami)
 if [ "$current_user" == "shiv" ] || [ "$current_user" == "jasper" ]; then
   echo "User is $current_user. Running the next part of the script..."
   
-  # Extract the Status column from the mycat command output
-  statuses=$(mycat | awk 'NR>2 {print $2}')
+  # Extract the Status column from the file
+  statuses=$(awk 'NR>2 {print $2}' /home/shiv/Project/WORK/arther/status_check_data.txt)
 
   # Check if all statuses are START
   all_start=true
