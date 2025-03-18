@@ -1,0 +1,9 @@
++---------------+--------+---------------+
+| Name          | Status    | City       |
++---------------+--------+---------------+
+| John Doe      | START  | New York      |
+| Jane Smith    | START  | London        |
+| David Lee     | START  | Paris         |
+| Emily Chen    | START  | Tokyo         |
+| Michael Brown | START  | Sydney        |
++---------------+--------+---------------+
